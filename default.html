@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test</title>
+    <meta charset="UTF-8">
+</head>
+<link rel="stylesheet" href="css/main.css">
+<body>
+	
+	<div class="control">
+		<p>HSV Convert</p>
+		<div class="rect demo1"></div>
+		<p>H : <input id="hsv_h" type="range" min="0" max="359" step="1"> <i>0</i></p>
+		<p>S : <input id="hsv_s" type="range" min="0" max="100" step="1"> <i>0</i></p>
+		<p>V : <input id="hsv_v" type="range" min="0" max="100" step="1"> <i>0</i></p>
+	</div>
+
+	<div class="control">
+		<p>HSL Convert</p>
+		<div class="rect demo2"></div>
+		<p>H : <input id="hsl_h" type="range" min="0" max="359" step="1"> <i>0</i></p>
+		<p>S : <input id="hsl_s" type="range" min="0" max="100" step="1"> <i>0</i></p>
+		<p>L : <input id="hsl_l" type="range" min="0" max="100" step="1"> <i>0</i></p>
+	</div>
+
+</body>
+<script src="lib/jquery.min.js"></script>
+<script src="js/convert.js"></script>
+<script src="js/main.js"></script>
+</html>
